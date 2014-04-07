@@ -49,5 +49,12 @@ public class ConferenceMember implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	@Override
+	public String toString() {
+		return "ConferenceMember [id=" + id + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", email=" + email + "]";
+	}
+	
+	
    
 }
