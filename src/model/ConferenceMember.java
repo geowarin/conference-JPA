@@ -10,6 +10,7 @@ import javax.persistence.*;
  *
  */
 @Entity
+@Table(name = "ConferenceMember")
 public class ConferenceMember implements Serializable {
 	@Id @GeneratedValue
 	private Long id;
